@@ -1,9 +1,42 @@
-nav{
-    display: inline;
-}
 *{
+    margin-top: 0;
+    margin-left: 0vw;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-.vid{
-    display: inline; 
+nav{
+    display: inline;
+    background-color: aqua;
+    border: 5px solid aqua;
+    border-radius: 100px;
+    position: sticky;
+    left:45%;
+    top: 0px;
+    /* margin-top: 200px;  */
+    }
+ 
+#home_sec{
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+#contact{
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+footer{
+    background-color: darkgreen;
+    height: 20vh;
+    width: 99vw;
+    margin-bottom: 0px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+    height: 100%;
+}
+.fa-brands{
+    font-size: x-large;
+
 }
